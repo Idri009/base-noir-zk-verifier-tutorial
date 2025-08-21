@@ -1,9 +1,9 @@
 [package]
-name = "noir_psi_proof"       
+name = "zk_proof_mul_and_sum"       
 type = "bin"
-authors = ["cypriansakwa"]
+authors = [""]
 compiler_version = ">=1.0.0"
 
 [dependencies]
-poseidon = { tag = "v0.1.1", git = "https://github.com/noir-lang/poseidon" }
+
 

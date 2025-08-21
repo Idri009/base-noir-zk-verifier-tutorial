@@ -14,7 +14,7 @@ contract CyprianVerifierAppTest is Test {
     function setUp() public {
         verifier = new HonkVerifier();
         verifierApp = new CyprianVerifierApp(verifier); // 🔁 updated constructor 
-        publicInputs[0] = bytes32(uint256(2));
+        publicInputs[0] = bytes32(uint256(13));
     }
    function testVerifyProof() public {
     bytes memory proof = vm.readFileBinary("../circuits/target/proof");
